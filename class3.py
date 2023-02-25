@@ -1,3 +1,45 @@
+#FUNCTIONS IN PYTHON
+
+#def func_name(arg1,arg2,....)
+
+#args-arguments
+#kwargs- key word arguemnts+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#def func_name(key,calure,*args,**kwargs):
+# print(key,value)
+# print(args)
+# print(kargs)
+
+
+#functions can be nested inside each other
+
+
+#first value is checked inside the function- local scope
+#if nto found checked outside the function-global scope
+#if function is defined inside fucntion , when value is not found in the second function but found in one function then it is called non local function
+
+#import builtins as n/ import numpy as no
+# from builtins import *(all functions)n/ from builtins import function_name(if not whole module only one function we want to import)
+
+# Exception Handling: code ko try aur expect ke bichmei rkhte Handling
+# try-run this code
+# except-run this code if an exception occurs
+# else- run this if no exception occurs
+# finally- always run this code
+
+# exception-value error
 import new
 
 print("Select your operation:")
